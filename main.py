@@ -14,8 +14,8 @@ from bs4 import BeautifulSoup as bf
 import datetime
 import csv
 import schedule
-banner = pyfiglet.figlet_format("404",font='banner3-d')
-bann = pyfiglet.figlet_format("anfisa",font='banner3-d')
+banner = pyfiglet.figlet_format("404",font='banner3-D')
+bann = pyfiglet.figlet_format("anfisa",font='banner3-D')
 print(bann)
 print("[+] Бот работает")
 bot = telebot.TeleBot('8387358592:AAGDbX4Q9fWOfsVo-curjh5D7YvavtrtgPE')
